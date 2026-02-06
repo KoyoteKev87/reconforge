@@ -28,6 +28,12 @@ ReconForge is intended **only for authorized security testing**. Users must have
 - Windows/Linux compatible
 - Dependencies managed via `requirements.txt`
 
+Author
+
+Kevin Mujica
+Information Systems & Technology – Cybersecurity
+California State University, San Bernardino
+
 ### Quick Start
 
 ```powershell
