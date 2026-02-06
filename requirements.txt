@@ -1,0 +1,11 @@
+gradio==3.50.2
+pydantic<2.0.0
+# Core dependencies
+requests
+dnspython
+python-whois
+ipwhois
+tldextract
+anyio>=3.7.1
+# Fix for potential typing issues
+typing-extensions>=4.0.0
