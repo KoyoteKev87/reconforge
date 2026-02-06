@@ -1,40 +1,39 @@
-ReconForge is a modular reconnaissance tool designed for authorized security assessments and educational penetration testing environments.
+## ReconForge 🦅
 
-## Features
+ReconForge is a Python-based reconnaissance tool designed for authorized security testing and educational environments. It performs passive intelligence gathering and controlled active probing to help identify exposed services, open ports, and potential security risks on a target system.
 
-- Passive reconnaissance (DNS, WHOIS, Subdomain enumeration)
-- Controlled active reconnaissance (port scanning, web probing)
-- Modular scanning architecture
-- Low-footprint threaded scanning engine
-- Structured JSON output
-- Gradio-based UI interface
+The tool was built as a learning-focused reconnaissance platform with an emphasis on safety, modular design, and clear reporting output.
 
-## Architecture
+### Features
 
-ReconForge uses a modular execution engine:
+- Target input support (IP, Domain, CIDR)
+- Multiple scan profiles:
+  - Fast (passive + top ports)
+  - Full (extended reconnaissance)
+  - Custom module selection
+- DNS and WHOIS lookup
+- Subdomain discovery
+- Port scanning with risk tagging
+- Basic web service probing
+- JSON result output for automation
+- Modular architecture for future expansion
 
-Target Input → Scanner Engine → Recon Modules → Aggregation → JSON Output
+### Safety
 
-Modules include:
-- DNS Enumeration
-- WHOIS / RDAP Lookup
-- Subdomain Discovery
-- Port Scanning
-- Web Service Probing
+ReconForge is intended **only for authorized security testing**. Users must have explicit permission before scanning any target.
 
-Legal Notice
+### Requirements
 
-This tool is intended for authorized security testing only.
-Unauthorized scanning of systems without permission is illegal.
+- Python 3.9 (recommended)
+- Windows/Linux compatible
+- Dependencies managed via `requirements.txt`
 
-Author
+### Quick Start
 
-Kevin Mujica
-California State University, San Bernardino
-Information Systems & Technology – Cybersecurity
-
-## Installation
-
-```bash
+```powershell
+git clone https://github.com/KoyoteKev87/reconforge.git
+cd reconforge
+python -m venv .venv
+.\.venv\Scripts\activate
 pip install -r requirements.txt
 python main.py
