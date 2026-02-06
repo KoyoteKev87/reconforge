@@ -22,6 +22,17 @@ Modules include:
 - Port Scanning
 - Web Service Probing
 
+Legal Notice
+
+This tool is intended for authorized security testing only.
+Unauthorized scanning of systems without permission is illegal.
+
+Author
+
+Kevin Mujica
+California State University, San Bernardino
+Information Systems & Technology – Cybersecurity
+
 ## Installation
 
 ```bash
