@@ -1,4 +1,4 @@
-## ReconForge 🦅
+## ReconForge 
 
 ReconForge is a Python-based reconnaissance tool designed for authorized security testing and educational environments. It performs passive intelligence gathering and controlled active probing to help identify exposed services, open ports, and potential security risks on a target system.
 
